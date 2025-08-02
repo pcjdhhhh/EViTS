@@ -141,7 +141,7 @@ for file_name in datasets_name:
         optimizer = optim.Adam(model.parameters(), lr=1e-4)
         #optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-4)
         
-        train(model, dataloader, optimizer, device, epochs=10)
+        train(model, dataloader, optimizer, device, epochs=20)
         
         model_save_path = 'tune_model_save/' + select_pretrained + '/' + select_distance + '/' + file_name + '.pth'
         torch.save(model.state_dict(), model_save_path)
@@ -152,5 +152,6 @@ for file_name in datasets_name:
         
 
         
+
 
 
