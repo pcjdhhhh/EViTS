@@ -1,6 +1,6 @@
 # EViTS: Can Vision-Based Pretrained Models Help with Time Series Similarity Search under Elastic Distances?
-This repository is the official implementation of [Can Vision-Based Pretrained Models Help with Time Series Similarity Search under Elastic Distances?], 
-submitted to AAAI 2026  (Under Review)
+This repository is the official implementation of [Can Vision-Based Pretrained Models Help with Time Series Similarity Search under Elastic Distances?]
+
 
 ## The overall execution process of applying the EViTS algorithm to time series similarity search.
 
